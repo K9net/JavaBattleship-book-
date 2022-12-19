@@ -1,6 +1,6 @@
 public class SimpleDotComTestDrive {
     public static void main(String[] args) {
-        SimpleDotCom sdc = new SimpleDotCom();
+        DotCom sdc = new DotCom();
 
         int[] locations = {2,3,4};
         //sdc.setLocationCells(locations);
@@ -12,6 +12,5 @@ public class SimpleDotComTestDrive {
         }
         //123123
         System.out.println(testResult);
-        System.out.println(sdc.getNumOfHits());
     }
 }
