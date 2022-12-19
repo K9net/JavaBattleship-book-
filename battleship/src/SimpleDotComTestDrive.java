@@ -10,6 +10,7 @@ public class SimpleDotComTestDrive {
         if (result.equals("Попал")){
             testResult = "Пройден";
         }
+        //123123
         System.out.println(testResult);
         System.out.println(sdc.getNumOfHits());
     }
